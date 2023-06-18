@@ -1,0 +1,312 @@
+body{
+    background-color: black;
+    transition: all 0.7;
+}
+
+/* 中间整体 */
+.zj {
+    /* height: 1000px; */
+    background-color: rgb(0, 0, 0);
+    position: relative;
+    overflow: hidden;
+}
+
+/* 首页 */
+.sy {
+    width: 1600px;
+    height: 745px;
+    background-color: rgb(165, 165, 165);
+    margin: 0 auto;
+}
+
+.sy .wzsy {
+    height: 30px;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    line-height: 30px;
+    font-size: 22px;
+    cursor: pointer;
+    padding-bottom: 10px;
+    font-weight: 900;
+}
+
+.sy img {
+    width: 1000px;
+    float: left;
+}
+
+.sy .bj::after {
+    content: " ";
+    width: 50px;
+    height: 50px;
+    background-color: rgb(0, 0, 0);
+    display: block;
+    position: absolute;
+    bottom: -20px;
+    left: -35px;
+}
+
+.sy .bj {
+    width: 600px;
+    height: 705px;
+    background-color: rgb(0, 0, 0);
+    float: right;
+    color: white;
+    position: relative;
+}
+
+.sy .bj h1 {
+    position: relative;
+    top: 20%;
+    left: 30%;
+}
+
+.sy .bj p {
+    width: 400px;
+    height: 700px;
+    position: relative;
+    left: 10%;
+    top: 25%;
+}
+
+/* 人物介绍 */
+.rwjs {
+    width: 1600px;
+    height: 1600px;
+    background-color: rgb(0, 0, 0);
+    margin: 0 auto;
+}
+
+.wzrwjs {
+    width: 1600px;
+    height: 30px;
+    border: 1px solid black;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    line-height: 30px;
+    font-size: 22px;
+    font-weight: 900;
+    position: relative;
+    left: -60px;
+}
+
+.rwjs .bom {
+    width: 1620px;
+    height: 1600px;
+    background-color: rgb(0, 0, 0);
+    margin: 0 auto;
+    float: left;
+}
+
+.rw {
+    float: left;
+    margin-right: 110px;
+    margin-top: 40px;
+}
+
+.rwjs .bom .left {
+    width: 180px;
+    height: 345px;
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+    border: 1px solid white;
+    float: left;
+}
+
+.rwjs .bom .left img {
+    width: 180px;
+    border: 1px solid white;
+}
+
+.rwjs .bom .left p {
+    font-weight: 800;
+    font-size: 18px;
+    width: 180px;
+    border: 1px solid white;
+    margin: 0 auto;
+    color: white;
+    background-color: black;
+    cursor: pointer;
+}
+
+.rwjs .bom .rig {
+    width: 500px;
+    height: 345px;
+    border: 1px solid white;
+    color: white;
+    margin-left: 5px;
+    display: inline-block;
+    overflow-y: auto;
+}
+
+.rwjs .bom .rig p {
+    line-height: 25px;
+    margin-top: 4px;
+}
+
+/* 名词解析 */
+.mcjx {
+    height: 640px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+
+.mcjx .bg {
+    width: 1600px;
+    height: 640px;
+    background-color: rgb(0, 0, 0);
+    margin: 0 auto;
+}
+
+.mcjx .bg .bt {
+    width: 1600px;
+    height: 30px;
+    border: 1px solid black;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    line-height: 30px;
+    font-size: 22px;
+    font-weight: 900;
+    position: relative;
+    left: -60px;
+}
+
+.mcjx table {
+    border: white 1px solid;
+    margin-top: 70px;
+    float: left;
+    /* text-align: center; */
+}
+
+.mcjx tr {
+    border: white 1px solid;
+    font-weight: 800;
+}
+
+.yszp {
+    height: 1200px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+
+.yszp .zpqy {
+    width: 1600px;
+    height: 1200px;
+    background-color: rgb(0, 0, 0);
+    margin: 0 auto;
+    position: relative;
+}
+
+.yszp .zpqy .bt {
+    width: 1600px;
+    height: 30px;
+    border: 1px solid black;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    line-height: 30px;
+    font-size: 22px;
+    font-weight: 900;
+    position: relative;
+    left: -30px;
+}
+
+.yszp span {
+    font-size: 22px;
+
+}
+
+.yszp ul {
+    margin-top: 50px;
+    margin-left: 50px;
+    list-style: none;
+    position: relative;
+}
+
+.yszp ul li {
+    width: 300px;
+    height: 440px;
+    border: 2px solid aqua;
+    background: url(../img/my5.webp)no-repeat;
+    background-size: 300px 440px;
+    overflow: hidden;
+    display: inline-block;
+    transition: all 0.4s;
+    margin-right: 70px;
+    margin-bottom: 50px;
+    cursor: pointer;
+}
+
+.yszp .nr,
+#nr {
+    width: 300px;
+    height: 440px;
+    background-color: rgba(0, 0, 0, .3);
+    position: absolute;
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+    opacity: 0;
+    cursor: pointer;
+    transition: all 0.4s;
+    display: inline-block;
+}
+
+.lb {
+    width: 20000px;
+    height: 440px;
+    /* background: url(../img/3ydsz1.webp)no-repeat,
+        url(../img/3ydsz2.webp)no-repeat 270px 0;
+    background-size: 250px 350px; */
+    background-color: rgb(0, 0, 0);
+    position: absolute;
+    top: 0%;
+    left: 24%;
+    color: white;
+    overflow: hidden;
+}
+.hs{
+    width: 20000px;
+    height: 440px;
+    background-color: rgb(0, 0, 0);
+    position: absolute;
+    top: 0%;
+    left: 93%;
+    z-index: 999;
+}
+.lb .zt{
+    width: 250px;
+    height: 440px;
+    background-color: aqua;
+    border: 2px solid white;
+    display: inline-block;
+    position: relative;
+    /* right: 50px; */
+    cursor: pointer;
+}
+.lb .zt .cen{
+    width: 250px;
+    height: 370px;
+    background-color: rgb(166, 255, 0);
+}
+.lb .zt .cen img{
+    width: 250px;
+    height: 370px;
+}
+.lb .zt .bom{
+    width: 250px;
+    height: 60px;
+    background-color: rgb(0, 0, 0);
+    font-weight: 800;
+    font-size: 22px;
+    text-align: center;
+    line-height: 60px;
+    border-top: 2px solid white;
+}
+.lb .zt .bom:hover{
+    background-color: white;
+    color: orange;
+}
